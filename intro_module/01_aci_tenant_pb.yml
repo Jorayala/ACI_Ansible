@@ -5,10 +5,8 @@
   gather_facts: False
   vars:
     ansible_python_interpreter: /usr/bin/python3
-  vars_prompt:
-    - name: "tenant"
-      prompt: "What would you like to name your Tenant?"
-      private: no
+  tenant: ICE_CR
+  
 
   tasks:
     - name: ENSURE APPLICATIONS TENANT EXISTS

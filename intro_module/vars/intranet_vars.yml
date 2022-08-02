@@ -1,5 +1,5 @@
 ---
-  tenant: CHANGEME
+  tenant: ICE_CR
   ap: "intranet"
   epgs:
     - epg: "web"

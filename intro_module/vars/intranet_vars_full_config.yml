@@ -1,5 +1,5 @@
 ---
-tenant: CHANGEME
+tenant: ICE_CR
 vrf: "prod_vrf"
 bridge_domains:
   - bd: "prod_bd"
