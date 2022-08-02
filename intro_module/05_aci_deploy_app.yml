@@ -3,6 +3,8 @@
   hosts: apic
   connection: local
   gather_facts: False
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
 
   tasks:
     - name: TASK 01 - ENSURE APPLICATIONS TENANT EXISTS
