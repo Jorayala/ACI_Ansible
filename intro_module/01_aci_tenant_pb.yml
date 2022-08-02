@@ -5,7 +5,8 @@
   gather_facts: False
   vars:
     ansible_python_interpreter: /usr/bin/python3
-  tenant: ICE_CR
+    tenant: ICE_Tenant
+  
   
 
   tasks:
