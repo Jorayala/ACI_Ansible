@@ -1,7 +1,7 @@
 ---
 - name: ENSURE APPLICATION CONFIGURATION EXISTS
   hosts: localhost
-  gather_facts: False
+  gather_facts: false
 
   vars: 
     host: "131.226.217.153"
