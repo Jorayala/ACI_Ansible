@@ -1,11 +1,9 @@
 ---
 - name: ENSURE APPLICATION CONFIGURATION EXISTS
-  hosts: apic
-  connection: local
+  hosts: localhost
+  
   gather_facts: False
-  vars:
-    ansible_python_interpreter: /usr/bin/python3
-    tenant: ICE_Tenant
+  
   
   
 
