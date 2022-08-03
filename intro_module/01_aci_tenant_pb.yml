@@ -1,8 +1,9 @@
 ---
 - name: ENSURE APPLICATION CONFIGURATION EXISTS
   hosts: localhost
-  
   gather_facts: False
+  vars:
+    tenant: ICE_CR
   
   
   
