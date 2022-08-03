@@ -2,6 +2,12 @@
 - name: ENSURE APPLICATION CONFIGURATION EXISTS
   hosts: localhost
   gather_facts: False
+
+  vars: 
+    host: "131.226.217.153"
+    username: "admin"
+    password: "!v3G@!4@Y"
+    tenant: "awx-test2"
  
   
   
